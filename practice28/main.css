@@ -1,0 +1,52 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indianred;
+}
+.app{
+    height: 60vh;
+    width: 25vw;
+    /* background-color: rgb(255, 174, 0);
+} */
+background-color: white;
+border-radius: 8px;
+}
+
+.textArea{
+    height: 20vh;
+    width: inherit;
+    /* background-color: lavenderblush; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+textarea{
+    outline: none;
+    /* text-align: center; */
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128, 0.363);
+    padding: 2%;
+}
+.resultBoxSection{
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.resultBox{
+    height: 20vh;
+    width: 20vw;
+    background-color: rgba(128, 128, 128, 0.288);
+}
